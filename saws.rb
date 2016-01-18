@@ -5,6 +5,7 @@ class Saws < Formula
   sha256 "3aefcab0b9a37bf030ef8bdd3b2726579b7e797b13aae437f8ef3ffaf28ed753"
 
   depends_on "awscli"
+  depends_on "pahko/missing-tap/pygments"
   depends_on :python if MacOS.version <= :snow_leopard
 
   resource "awscli" do
