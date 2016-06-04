@@ -6,13 +6,13 @@ official homebrew repo that I use on daily basis.
 ## Installation / Usage
 
 ```bash
-$ brew tap pahko/missing-tap
+$ brew tap pahko/urquell
 $ brew install <pacakge>
 ```
 or
 
 ```bash
-$ brew install pahko/missing-tap/<package>
+$ brew install pahko/urquell/<package>
 ```
 
 ## List of Packages
