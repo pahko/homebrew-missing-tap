@@ -5,7 +5,7 @@ class Saws < Formula
   sha256 "8926f3fa9cb3b95248bd7316fdf47723e63c969e1e5a6d8cc57368aef99e0856"
 
   depends_on "awscli"
-  depends_on "pahko/missing-tap/pygments"
+  depends_on "pahko/urquell/pygments"
 
   resource "awscli" do
     url "https://files.pythonhosted.org/packages/9e/fc/c168fd38a62f2c342a5ba1052f9f52de47bb5dec797ca56b4edc9ac0fbd4/awscli-1.10.58.tar.gz"
